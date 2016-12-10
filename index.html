@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+  </head>
+  <body>
+    <div id="bpambassador-intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <img class="img-responsive" src="https://www.bodypak.pl/modules/bpambassador/views/img/intro.png" alt="Program Ambasadorski">
+          </div>
+        </div>
+        </div>
+    </div>
+    <div style="background: #e74444;">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-8 col-md-offset-2">
+            <div id="bpambassador-content">
+              <img id="bpambassador-arrow" src="https://www.bodypak.pl/modules/bpambassador/views/img/ambassador-arrow.png">
+              <div class="bpambassador-landing-section">
+                <h2>Jak działa program ambasadorski?</h2>
+                <p>Po pierwsze – BĄDŹ SOBĄ! Inspiruj, motywuj i edukuj. Po drugie - Pomóż nam budować społeczność zadowolonych klientów sklepu Bodypak.pl. Otrzymasz od nas swój indywidualny kod. Będzie to atrakcyjny kod rabatowy dla nowych klientów sklepu. Za każdy wykorzystany kod otrzymasz od nas 250 punktów lojalnościowych (10zł).</p>
+                <img class="img-responsive" src="https://www.bodypak.pl/modules/bpambassador/views/img/ambassador-info-1.png">
+              </div>
+              <div class="bpambassador-landing-section">
+                <h2>Ty decydujesz!</h2>
+                <p>Możesz umieścić kod na banerze, na zdjęciu, grafice lub w treści posta. Możesz polecać nas również znajomym. Twoją decyzją jest również kiedy i na co wykorzystasz otrzymane w programie punkty lojalnościowe. Im większe będzie Twoje zaangażowanie tym więcej możesz zyskać!</p>
+                <img class="img-responsive" src="https://www.bodypak.pl/modules/bpambassador/views/img/ambassador-info-2.png">
+              </div><div class="bpambassador-landing-section">
+                <h2>Co możesz zyskać?</h2>
+                <p>Jako ambasador marki Bodypak dołączysz do grona ambitnych i inspirujących ludzi których największą pasją jest sport. Najlepsi i najaktywniejsi ambasadorzy będą dostawać od nas prezenty oraz będą brać udział w testach produktów.</p>
+                <img class="img-responsive" src="https://www.bodypak.pl/modules/bpambassador/views/img/ambassador-info-3.png">
+              </div>
+
+              <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content panel-success">
+                    <div class="modal-header panel-heading">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                      <h4 class="modal-title">Wiadomość została wysłana!</h4>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success" data-dismiss="modal">Ok!</button>
+                    </div>
+                  </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+              </div><!-- /.modal -->
+
+              <div class="bpambassador-landing-section">
+                <h2>Jak zostać ambasadorem BODYPAK?</h2>
+                <p>Wypełnij formularz i napisz kilka zdań o sobie. Skontaktujemy się z Tobą i nadamy Ci Twój indywidualny kod, dzięki któremu zacznie się Twoja przygoda Ambasadora BODYPAK.PL. W wiadomości zwrotnej dowiesz się wszystkiego i będziemy w kontakcie.</p>
+                  <div class="form-group">
+                    <div class=" col-sm-8 col-sm-offset-2">
+                       <input class="form-control" type="text" id="name" name="name" placeholder="Imię i nazwisko">
+                     </div>
+                   </div>
+                   <div class="form-group">
+                     <div class=" col-sm-8 col-sm-offset-2">
+                       <input class="form-control" type="email" id="email" name="email" placeholder="Email">
+                     </div>
+                   </div>
+                   <div class="form-group">
+                     <div class=" col-sm-8 col-sm-offset-2">
+                       <input class="form-control" type="text" id="phone" name="phone" placeholder="Telefon">
+                     </div>
+                   </div>
+                   <div class="form-group">
+                     <div class=" col-sm-8 col-sm-offset-2">
+                       <textarea class="form-control" name="social" id="social" placeholder="Linki do Twoich profili Social Media"></textarea>
+                     </div>
+                   </div>
+                   <div class="form-group">
+                     <div class=" col-sm-8 col-sm-offset-2">
+                       <textarea class="form-control" name="about" id="about" placeholder="Krótki opis Twojej działalności"></textarea>
+                     </div>
+                   </div>
+                   <div class="form-group">
+                     <div class=" col-sm-8 col-sm-offset-2">
+                       <button type="submit" data-toggle="modal" href="#myModal" class="btn btn-lg col-sm-12" id="sendEmail">Wyślij zgłoszenie</button>
+                     </div>
+                   </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div id="fb-root"><script src="https://connect.facebook.net/en_US/all.js"></script></div>
+     <script src="/script/script.js"></script>
+  </body>
+</html>
